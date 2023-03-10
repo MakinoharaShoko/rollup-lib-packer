@@ -117,7 +117,7 @@ async function pack() {
           tsconfigOverride: {
             compilerOptions: {
               sourceMap: !isProd,
-              declarationDir: 'build/${lib.name}/umd',
+              declarationDir: 'build/${lib.name}/types',
             },
             include: ['src/libs/${lib.name}'],
           },
